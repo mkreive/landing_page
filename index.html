@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Roboto+Slab:wght@200;300;400;500;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>monkuku</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header" id="header">
+            <img src="img/logo.png" alt="monkuku logo" class="logo" id="header-img">
+            <nav id="nav-bar">
+                <ul class="navigation">
+                    <li class="navigation-item">
+                        <a href="#header" class="nav-link">home</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#about" class="nav-link">about</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#work" class="nav-link">work</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#footer" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="overview">
+            <p class="slogan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Corporis quam veniam placeat?
+            </p>
+            <div class="features">
+                <section class="features-item">
+                    <span class="features-item__icon icon-1">*</span>
+                    <h4 class="features-item__small-header">Aliquam lorem lectus</h4>
+                    <p class="features-item__text">Inventore soluta deleniti quam assumenda accusantium quisquam aspernatur 
+                        consequuntur recusandae iste, eveniet nulla culpa veritatis saepe.
+                    </p>
+                </section>
+                <section class="features-item">
+                    <span class="features-item__icon icon-1">*</span>
+                    <h4 class="features-item__small-header">Corporis quam veniam</h4>
+                    <p class="features-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Iusto nam similique facilis, architecto, iste, eveniet ab reprehenderit harum eligendi.
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <h1 class="about-heading heading-big">About me.</h1>
+            <div class="quote">
+                <img src="img/kringelisVertical.png" alt="kringel" class="wave-icon">
+                <p class="quote-text">"Eaque excepturi suscipit dicta eveniet molestias adipisci ipsum repellat, ea possimus delectus neque 
+                        esse optio dolores tempore quam id ullam unde corporis?"
+                </p>
+                <img src="img/kringelisVertical.png" alt="kringel" class="wave-icon">
+            </div>
+            <div class="cards">
+                <div class="cards-item">
+                    <img class="cards-item__icon" src="img/icons/iconBrains.png" alt="brain icon">
+                    <h3 class="heading-medium">56</h3>
+                    <p class="cards-item__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea illo dolore</p>
+                </div>
+                <div class="cards-item">
+                    <img class="cards-item__icon" src="img/icons/iconComputer.png" alt="computer icon">
+                    <h3 class="heading-medium">102</h3>
+                    <p class="cards-item__text">Dolor sit amet consectetur adipisicing elit. Incidunt ea illo dolore dicta molestias</p>
+                </div>
+                <div class="cards-item">
+                    <img class="cards-item__icon" src="img/icons/iconMessedup.png" alt="man icon">
+                    <h3 class="heading-medium">323</h3>
+                    <p class="cards-item__text">Dolor sit amet consectetur adipisicing elit. Incidunt ea illo dolore dicta molestias</p>
+                </div>
+                <div class="cards-item">
+                    <img class="cards-item__icon" src="img/icons/iconSausage.png" alt="sausage icon">
+                    <h3 class="heading-medium">50</h3>
+                    <p class="cards-item__text">Dolor sit amet consectetur adipisicing elit. Incidunt ea illo dolore dicta molestias</p>
+                </div>
+        </div>
+        
+        <div class="work" id="work">
+            <video id="video" width="640" height="auto" controls class="work-video">
+                <source src="img/video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <section class="work-text">
+                <h1 class="heading-big">My workday.</h1>
+                <p class="work-text__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iusto quidem, vitae qui deserunt 
+                        soluta nihil perspiciatis a ipsum harum facilis recusandae magnam, earum natus voluptates quisquam accusamus architecto odit!
+                </p>
+                <a href="#" class="btn">Read more</a>
+                
+            </section>
+        </div>
+
+        <div class="signup">
+            <h2 class="header-big">Sign up. Log in.</h2>
+            <form class="signup-form" id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+                <label for="email" class="form__label"
+                    >Email address.</label>
+                <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Your email"
+                    required
+                    id="email"/>    
+                <div>
+                    <label for="Sign up">
+                        <input class="form__btn" type="Submit" value="submit" id="submit">
+                    </label>
+                </div>
+            </form>
+        </div>
+  
+        <footer class="footer" id="footer">
+            <img src="img/kringelisVertical.png" alt="kringel" class="wave-icon">
+            <p> freecodecamp made me do this &vzigzag; &copy;monikakreive &vzigzag; 2020 </p>
+            <img src="img/kringelisVertical.png" alt="kringel" class="wave-icon">
+        </footer>
+    </div>
+</body>
+</html>
